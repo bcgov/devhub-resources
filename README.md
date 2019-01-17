@@ -1,44 +1,34 @@
-# Application Name
-Description of the application. 
+# DevHub Resources
 
-## Technology Stack Used
+A set of resources to be included in the BC Gov DevHub.  The resources here don't hava natural home elsewhere, so we can house them here.  It is an explicity decision to keep these resources distinct from the code of the DevHub.
 
-## Third-Party Products/Libraries used and the the License they are covert by
+Files within the `resources` folder structure are referenced explicitly or implicitly in the DevHub registry, processed by the DevHub automated build process, and presented in the [live DevHub app](https://developer.gov.bc.ca).    
 
 ## Project Status
 
-## Documnentation
-
-GitHub Pages (https://guides.github.com/features/pages/) are a neat way to document you application/project.
-
-## Security
-
-Authentication, Authorization, Policies, etc
+Active development.
 
 ## Files in this repository
 
 ```
-docs/           - Project Documentation
-└── images        
-└── icons         
+resources/           - Resource content files for inclusion in DevHub 
+└── developer-tools  - Developer tools collection resources
+└── community-tools  - Community tools collection resources
 
-openshift/      - OpenShift-specific files
-├── scripts     - helper scripts
-└── templates   - application templates
 ```
 
-## Deployment (Local Development)
+## Deployment
 
 * Developer Workstation Requirements/Setup
 * Application Specific Setup
 
-## Deployment (OpenShift)
+## Deployment
 
-See (openshift/Readme.md)
+See [docs for DevHub](https://github.com/bcgov/devhub-app-web#deployment-local-development-for-app-web) for details on deploying DevHub, which will present the content from this repo. 
 
 ## Getting Help or Reporting an Issue
 
-To report bugs/issues/feature requests, please file an [issue](https://github.com/BCDevOps/opendev-template/issues/).
+To report bugs/issues/feature requests, please file an [issue](https://github.com/bcgov/devhub-resources/).
 
 ## How to Contribute
 
