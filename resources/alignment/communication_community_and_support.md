@@ -3,6 +3,8 @@ title: Communication, Community and Support
 description: Overview of Communication, Community and Support mechanism mechanism and conventions within the BC Gov developer community.
 ---
 
+# Communication, Community and Support
+
 - Product Teams should aim for self-sufficiency WRT management of pipelines, definition of OCP assets, deployments, scaling, monitoring, etc.
     - Training, tutorials, books, are available to help with the learning curve
 - Community (Internet, and Gov) are the support mechanisms - not individual resources

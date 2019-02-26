@@ -3,6 +3,8 @@ title: Application Architecture and Technology Stacks
 description: Architecture and Technology Guidance for modern application development in BC Gov. 
 ---
 
+# Application Architecture and Technology Stacks
+
 - Leverage platform-provided templates/components when possible
     - Already adapted for OpenShift
     - Supported by RedHat (updates, patches, etc.)
