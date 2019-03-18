@@ -7,7 +7,7 @@ Below are the chat channels we manage and the intended use/etiquette around each
 
 As much as possible, we are encouraging a community/peer-to-peer support model where community members are expected to participate by sharing their experience and advice, and responding to problems and questions as they are able.  While the platform team will attempt to triage, and moderate discussions, the success and sustainability of the model depends to a large degree on participation from the broder community.
 
-Note: Our current chat space is on Slack at https://devopspathfinder.slack.com/ but we likely to be a different platform before long.  We will likely retain the same channels and conventions.
+Note: Our current chat space is on Rocket.Chat at https://chat.pathfinder.gov.bc.ca/
 
 #devops-sos
 
