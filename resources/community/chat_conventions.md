@@ -47,6 +47,10 @@ This channel will be monitored by the platform team and ESIT during business hou
 
 Anything that might be of interest to the community.
 
+#geows-how-to
+
+\#[Geo Spatial Web Services How-to](https://chat.pathfinder.gov.bc.ca/channel/geows-how-to), this is the channel you can inquiry how to consume Province provided spatial webservices such as WMS, WFS, ArcGIS REST services with your web applications.
+
 #random 
 
 Jokes (SFW only pls), links, and ~~cat~~ pug pictures. 'Nuff said.
