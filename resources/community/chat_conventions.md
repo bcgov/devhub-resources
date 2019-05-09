@@ -2,7 +2,7 @@
 title: Chat Channel Conventions
 description: Conventions and etiquette related to the BC Gov developer chat platform. 
 ---
-
+## Chat Channel Conventions
 Below are the chat channels we manage and the intended use/etiquette around each.
 
 As much as possible, we are encouraging a community/peer-to-peer support model where community members are expected to participate by sharing their experience and advice, and responding to problems and questions as they are able.  While the platform team will attempt to triage, and moderate discussions, the success and sustainability of the model depends to a large degree on participation from the broder community.
