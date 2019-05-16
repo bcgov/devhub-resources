@@ -14,7 +14,7 @@ labels:
   - Progressive Web App
   - PWA
   - Web Development
- description: A guide that compiles some best practices for developing applications in the modern world. This guide speaks on 12 Factor Apps as well as Progressive Web Apps.
+description: 'A guide that compiles some best practices for developing applications in the modern world. This guide speaks on 12 Factor Apps as well as Progressive Web Apps.'
 ---
 
 ## Building Modern Web Applications
