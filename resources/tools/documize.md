@@ -1,6 +1,7 @@
 ---
 title: Documize
 description: Team-driven content authoring & automation for secure internal and external documentation.
+resourceType: Self-Service Tools
 personas: 
 	- Developer
     - Designer
