@@ -8,6 +8,7 @@ personas:
 - Designer
 - Developer
 - Product Owner
+description: Learn about Openshift at a glance.
 ---
 
 # What Is Openshift?
