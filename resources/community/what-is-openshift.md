@@ -54,7 +54,22 @@ Openshift has several built in features that make it useful to run at an enterpr
 - The user access model allows managment of applications and teams
 - It is very focused on the __Developer Experience__. All the dependancies that are required for an application (storage, databases, network rules, security, patching) are essentially in one box that can easily accessed by the Developer with minimal barriers.
 
-
 ### Kubernetes
 
- - dr, infra as code
+Kubernetes is a open source application that is the foundation of Openshift. In reality, there are several different 'versions' of kubernetes, Openshift is one of these 'versions' that we decided to work with. 
+
+As described by Kimoon Kim, senior architect at Pepperdata: “Kubernetes is software that manages many server computers and runs a large number of programs across those computers. On Kubernetes, all programs run in containers so that they can be isolated from each other, and be easy to develop and deploy.”
+
+### Platform
+
+The Openshift Container *_platform_* provides several different layers of control and access to allow applications to be developed, built, and deployed securely. 
+
+From the administrative perspective, it is highly configuirable. Anything from user access, to custom roles, to resource allocation, storage allocation, and even the provisioning of new servers is modifiable and scalable. 
+
+From the devops/developers perspective, it provides the ability to self serve your way to appliciation success. This means a development team can be allocated a project (a room in the Openshift mansion) to work in without having other applications interfere. Provision their own storage and configure their application as needed to get it up and running. 
+
+There are several other features that are apart of Openshift which can be found [here](https://www.openshift.com/learn/what-is-openshift).
+
+## Summary
+
+Openshift is a platform that allows development teams to work in a self-service manner to build and deploy applications. A side affect of developing applications in a Cloud platform is that they are typically designed to be __Cloud Native__. This means they are scalable, lightweight, fault-tolerant, transportable, and in otherwords designed to meet the demands of the Modern IT ecosystem.
