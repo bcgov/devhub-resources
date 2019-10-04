@@ -7,9 +7,10 @@ tags:
 - Openshift
 - Learning Openshift
 - Developer Guide
+description: Taking Openshift 101 will provide you a highlevel overview of Openshift and how it is used in Gov. Learn about this and how you can attend a course.
 ---
 
-# Take Openshift 101
+# ExchangeLab Course: Openshift 101
 
 Openshift 101 is a two-day course put on by the Exchange Lab (formerly CSI Lab). This course is recommended to anyone who is onboarding to 
 onto the Lab's Openshift Cluster. 
