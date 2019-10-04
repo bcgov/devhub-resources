@@ -12,7 +12,7 @@ personas:
 
 # What Is Openshift?
 
-You've bean hearing words like _'Openshift'_, _'Cluster'_, _'Cloud'_ and _'Cloud Native'_ in and around different parts of Goverment
+You've been hearing words like _'Openshift'_, _'Cluster'_, _'Cloud'_ and _'Cloud Native'_ in and around different parts of Goverment
 (with a strong concentration located at the __Exchange Lab__). What does this all mean? Are these just buzz words or are they a new way of
 doing app development in Gov?
 
