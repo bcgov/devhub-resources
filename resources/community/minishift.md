@@ -1,6 +1,7 @@
 
 # Setup Docker in localhost 
 
+
 ## Instruction of How to Deploy Devhub on local Minishift:
 
 Which means you will not Have a nodejs version 10 and s2i-caddy image from Redhat in 'openshift' namespace.
@@ -11,7 +12,11 @@ Which means you will not Have a nodejs version 10 and s2i-caddy image from Redha
 -   Docker
 -   Access permission to console.pathfinder.gov.bc/openshift namespace.
 
-#### Step 1: Download and config Minishift Ensure that you download and install  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  before using the embedded drivers. Install before install minishift.
+---
+
+### Step 1: Download and config Minishift 
+
+Ensure that you download and install  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  before using the embedded drivers. Install before install minishift.
 
 Official instruction can be found  [here](https://docs.okd.io/latest/minishift/getting-started/installing.html).
 
@@ -38,18 +43,22 @@ $ minishift start --vm-driver virtualbox
 
 ```
 
+---
+
 ### Step 2: Install Docker
 
 Docker will be required to pull image from Bcgov openshift and push to your local minishift
 
 You can download from  [here](https://docs.docker.com/docker-for-mac/install/). Make sure that you have the Docker client binary installed on your machine.
 
+---
+
 ### Step 3: Pull  image from the production cluster to be used locally.
 
 To configure your console to reuse the Minishift Docker daemon, follow these steps:
 
 -   Start Minishift with the  `minishift start`  command.
--   Run the`minishift docker-env`  command to display the command you need to type into your shell to configure your Docker client. The command output will differ depending on OS and shell type.
+-   Run the `minishift docker-env`  command to display the command you need to type into your shell to configure your Docker client. The command output will differ depending on OS and shell type.
 ```code
 $ minishift docker-env
 export DOCKER_TLS_VERIFY="1"
@@ -92,7 +101,10 @@ docker tag docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:10 nodejs:10
 ```
 docker build -t nodejs:10
 ```
+
 After check `docker images`, you can now logout  `oc logout` from production openshift 
+
+---
 
 ### Step 4: Push the image to minishift openshift namespace
 
