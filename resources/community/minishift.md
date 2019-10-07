@@ -11,7 +11,7 @@ Which means you will not Have a nodejs version 10 and s2i-caddy image from Redha
 -   Docker
 -   Access permission to console.pathfinder.gov.bc/openshift namespace.
 
-#### Step 1: Download and config Minishift 
+### Step 1: Download and config Minishift 
 
 Ensure that you download and install  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  before using the embedded drivers. Install before install minishift.
 
