@@ -12,8 +12,7 @@ description: Taking Openshift 101 will provide you a highlevel overview of Opens
 
 # ExchangeLab Course: Openshift 101
 
-Openshift 101 is a two-day course put on by the Exchange Lab (formerly CSI Lab). This course is recommended to anyone who is onboarding to 
-onto the Lab's Openshift Cluster. 
+Openshift 101 is a two-day course put on by the Exchange Lab (formerly CSI Lab). This course is recommended to anyone who is onboarding onto the Lab's Openshift Cluster. 
 
 > Don't know what Openshift is? [Check out this primer](https://www.openshift.com/learn/what-is-openshift)
 
