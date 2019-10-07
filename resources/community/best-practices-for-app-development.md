@@ -31,7 +31,7 @@ BC Sans is an opensource font that __should be used for all web front ends__. It
 
 ## Developing Performant Front End Applications
 
-It is no surprise that more than __50% of all web traffic__ is now done through __mobile phone_.
+It is no surprise that more than __50% of all web traffic__ is now through __mobile devices__.
 > https://www.statista.com/statistics/241462/global-mobile-phone-website-traffic-share/
 
 Besides ensuring that your app looks and feels well on _small viewports_ it is important for them to performant, and in some cases behave like a native mobile app. 
