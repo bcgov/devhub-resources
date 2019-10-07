@@ -1,6 +1,7 @@
 
 # Setup Docker in localhost 
 
+
 ## Instruction of How to Deploy Devhub on local Minishift:
 
 Which means you will not Have a nodejs version 10 and s2i-caddy image from Redhat in 'openshift' namespace.
@@ -10,6 +11,8 @@ Which means you will not Have a nodejs version 10 and s2i-caddy image from Redha
 -   Minishift
 -   Docker
 -   Access permission to console.pathfinder.gov.bc/openshift namespace.
+
+---
 
 ### Step 1: Download and config Minishift 
 
@@ -40,11 +43,15 @@ $ minishift start --vm-driver virtualbox
 
 ```
 
+---
+
 ### Step 2: Install Docker
 
 Docker will be required to pull image from Bcgov openshift and push to your local minishift
 
 You can download from  [here](https://docs.docker.com/docker-for-mac/install/). Make sure that you have the Docker client binary installed on your machine.
+
+---
 
 ### Step 3: Pull  image from the production cluster to be used locally.
 
@@ -94,7 +101,10 @@ docker tag docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:10 nodejs:10
 ```
 docker build -t nodejs:10
 ```
+
 After check `docker images`, you can now logout  `oc logout` from production openshift 
+
+---
 
 ### Step 4: Push the image to minishift openshift namespace
 
