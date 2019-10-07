@@ -55,3 +55,16 @@ already contain many of the best practices when it comes to administering an app
   - Swagger
   - Knex JS
 
+## Finding Repos
+
+Here are a couple of good ways to find repos. 
+
+1. Using the Devhub
+
+> Requires being logged in
+
+![Searching Devhub](../../assets/search-devhub.gif)
+
+2. Using the Github Native Search
+
+![Searching Github](../../assets/search-github.png)
