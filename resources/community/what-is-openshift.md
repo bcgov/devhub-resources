@@ -23,7 +23,7 @@ Openshift and explain it in non-technical terms. (not all of us are Developers ð
 
 ## A Tale of Two Infrastructures
 
-Taken from Openshift's [learning portal](https://www.openshift.com/learn/what-is-openshift), it is a
+Taken from Openshift's [learning portal](https://www.openshift.com/learn/what-is-openshift), Openshift is a
 __Hybrid Cloud Enterprise Kubernetes Platform__.
 
 This is very different in comparison to traditional infrastructure that we find leveraged in most Government Applications. 
