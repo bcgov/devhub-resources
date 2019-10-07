@@ -18,5 +18,5 @@ This content is lonely and needs help! Some of the things we are looking to cove
 - What is a PIA
 
 If this is something that you are knowledgeable about and you would like to contribute please 
-_fork and pull this [repo](https://github.com/bcgov/devhub-resources/head/master/resources/security/security-for-beginners.md_
+_fork and pull this [repo](https://github.com/bcgov/devhub-resources/head/master/resources/security/security-for-beginners.md)_
 
