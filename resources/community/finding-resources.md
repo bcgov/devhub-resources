@@ -1,13 +1,14 @@
 ---
 resourceType: Documentation
+title: Where to find helpful resources as a developer
+description: |-
+Know what you are trying to look for but don't know where to start? Here is a guide that
+provides helpful resources for developer's looking for shared components, code examples etc. 
 tags:
 - Starting Out
 - Beginner's Guide
 personas: 
 - Developer
-description: Know what you are trying to look for but don't know where to start? Here is a guide that
-provides helpful resources for developer's looking for shared components, code examples etc. 
-title: Where to find helpful resources as a developer
 ---
 
 ## Where To Find Helpful Resources As A Developer
