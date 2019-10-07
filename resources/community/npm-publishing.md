@@ -1,0 +1,16 @@
+---
+description: Here are something to consider when publishing npm packages for @bcgov
+title: Best Practices for Publishing npm Packages
+resourceType: Documentation
+tags:
+- Openshift
+- Learning Openshift
+- Developer Guide
+personas: 
+- Developer
+pageOnly: true
+---
+
+## Best Practices For Publishing npm Packages
+
+This page is a stub, we are looking to get content contributed to this document :) Please [fork and pr](https://github.com/bcgov/devhub-resources/blob/master/resources/community/npm-publishing.md)!
