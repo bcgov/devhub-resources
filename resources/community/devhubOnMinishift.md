@@ -11,7 +11,9 @@ Which means you will not Have a nodejs version 10 and s2i-caddy image from Redha
 -   Docker
 -   Access permission to console.pathfinder.gov.bc/openshift namespace.
 
-#### Step 1: Download and config Minishift Ensure that you download and install  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  before using the embedded drivers. Install before install minishift.
+#### Step 1: Download and config Minishift 
+
+Ensure that you download and install  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  before using the embedded drivers. Install before install minishift.
 
 Official instruction can be found  [here](https://docs.okd.io/latest/minishift/getting-started/installing.html).
 
@@ -49,7 +51,7 @@ You can download from  [here](https://docs.docker.com/docker-for-mac/install/). 
 To configure your console to reuse the Minishift Docker daemon, follow these steps:
 
 -   Start Minishift with the  `minishift start`  command.
--   Run the`minishift docker-env`  command to display the command you need to type into your shell to configure your Docker client. The command output will differ depending on OS and shell type.
+-   Run the `minishift docker-env`  command to display the command you need to type into your shell to configure your Docker client. The command output will differ depending on OS and shell type.
 ```code
 $ minishift docker-env
 export DOCKER_TLS_VERIFY="1"
