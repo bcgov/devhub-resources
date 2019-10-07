@@ -18,7 +18,7 @@ _Where Do I find assets and common stylesheets for things like a header?_
 
 _What is Openshift and how do I use it?_
 
-_What resources are available to me as a developer to troubleshoot, learn, and contribute back to the community?
+_What resources are available to me as a developer to troubleshoot, learn, and contribute back to the community?_
 
 _What are some best practices when working on a project?_
 
