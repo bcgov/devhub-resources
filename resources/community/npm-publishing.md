@@ -3,8 +3,7 @@ description: Here are something to consider when publishing npm packages for @bc
 title: Best Practices for Publishing npm Packages
 resourceType: Documentation
 tags:
-- Openshift
-- Learning Openshift
+- npm
 - Developer Guide
 personas: 
 - Developer
