@@ -10,7 +10,7 @@ provides helpful resources for developer's looking for shared components, code e
 title: Where to find helpful resources as a developer
 ---
 
-## Looking for Resources 
+## Where To Find Helpful Resources As A Developer
 
 Some of the main principles Developer's go by are "don't repeat yourself" and "don't reinvent the wheel". 
 

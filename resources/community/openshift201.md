@@ -2,7 +2,6 @@
 resourceType: Events
 personas: 
 - Developer
-- Product Owner
 tags:
 - Openshift
 - Learning Openshift
