@@ -109,6 +109,11 @@ After check `docker images`, you can now logout  `oc logout` from production ope
 ### Step 4: Push the image to minishift openshift namespace
 
 -   log in to your minishift with system: admin role by  `oc login -u system:admin`  or login through UI and copy login token
+-   docker login to minishift openshift namespace as admin by
+
+```
+docker login -u admin -p $(oc whoami -t) $(minishift openshift registry)
+```
     
 -   Run following command to figure out minishift openshift namespace registry address
     
