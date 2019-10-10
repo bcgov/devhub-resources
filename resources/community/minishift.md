@@ -89,7 +89,7 @@ docker pull docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:10
 Use the command `docker images` in your terminal to list the images you currently have on your computer.
 
 #### some pre-work before push image to minishift
-- Set up Dockerfile
+- Set up Dockerfile, Try to use a clean directory
 ```
 echo FROM 172.30.1.1:5000/openshift/docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:latest > Dockerfile
 ```
@@ -99,7 +99,7 @@ docker tag docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:10 nodejs:10
 ```
 - Build a Docker image from a Dockerfile
 ```
-docker build -t nodejs:10
+docker build -t nodejs:10 ./Dockerfile
 ```
 
 After check `docker images`, you can now logout  `oc logout` from production openshift 
@@ -116,6 +116,14 @@ After check `docker images`, you can now logout  `oc logout` from production ope
 minishift openshift registry
 ```
  in this example case: 172.30.1.1:5000
+ 
+-   You will need your admin user have real 'admin' privilage on minishift by running:
+
+```
+oc login -u system:admin
+oc adm policy add-cluster-role-to-user cluster-admin admin --as=system:admin
+oc login admin
+```
 
 -   docker login to minishift openshift namespace as admin by
 
