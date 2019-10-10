@@ -88,21 +88,6 @@ docker pull docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:10
 ```
 Use the command `docker images` in your terminal to list the images you currently have on your computer.
 
-#### some pre-work before push image to minishift
-- Set up Dockerfile, Try to use a clean directory
-```
-echo FROM 172.30.1.1:5000/openshift/docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:latest > Dockerfile
-```
-- Tag the image that we pulled as nodejs:10
-```
-docker tag docker-registry.pathfinder.gov.bc.ca/openshift/nodejs:10 nodejs:10
-```
-- Build a Docker image from a Dockerfile
-```
-docker build -t nodejs:10 ./Dockerfile
-```
-
-After check `docker images`, you can now logout  `oc logout` from production openshift 
 
 ---
 
