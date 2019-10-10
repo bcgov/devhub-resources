@@ -121,7 +121,7 @@ minishift openshift registry
 -   Use openshift namespace registry and namespace's name and image name to tag your image and pushing it to minisift openshift namespace
 ```code
 docker tag <image ID> 172.30.1.1:5000/openshift/nodejs
-docker push 172.30.1.1:5000/openshift/nodej:latest
+docker push 172.30.1.1:5000/openshift/nodejs:latest
 ```
 Check if you have nodejs image in your minishift openshift namespace, pull any other app-required images can be done similarly.
 You can check  [next insturction](https://github.com/bcgov/devhub-app-web/blob/master/docs/disasterRecoverInstructions.md)  if you are interested in deploying devhub on your minishift instance!
