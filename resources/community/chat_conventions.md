@@ -36,12 +36,12 @@ This channel will be monitored by the platform team and AdvSol during business h
 
 \#devops-operations is primarily for communications between the OCIO DevOps Team Services team, DXC Operations Team, and Red Hat.  On occasion, conversation with community members may get pulled into this channel (e.g. from #devops-sos) for troubleshooting, etc. but in general community members should not frequently need to post in #devops-operations.
 
-# \#devops-requests
+# \#devops-requests (deprecated)
 
-\#devops-requests is for the platform team to receive access requests such as:
+\#devops-requests is no longer used. Visit [request repo](https://github.com/bcgov/devops-request-records) for the following:
  
  * provisioning of new OpenShift projects
- * granting new users accces to the OpenShift platform
+ * granting new users access to the OpenShift platform
  * removal of access for users who no longer require it
  * SSO realm creation
  * Quota increases
