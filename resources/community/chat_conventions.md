@@ -38,7 +38,7 @@ This channel will be monitored by the platform team and AdvSol during business h
 
 # \#devops-requests (deprecated)
 
-\#devops-requests is no longer used. Visit [request repo](https://github.com/bcgov/devops-request-records) for the following:
+\#devops-requests is no longer used. Visit [DevOps request repo](https://github.com/BCDevOps/devops-requests) for the following:
  
  * provisioning of new OpenShift projects
  * granting new users access to the OpenShift platform
