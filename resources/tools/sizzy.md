@@ -11,7 +11,7 @@ labels:
   - Responsive Design
   - Responsive Web
   - Frontend Development
-image: http://i.imgur.com/DmmJV3Z.png
+image: https://sizzy.co/static/media/S.aac76427.svg
 title: Sizzy - Responsive Design Testing
 ---
 > https://sizzy.co
