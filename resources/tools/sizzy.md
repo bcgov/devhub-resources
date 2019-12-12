@@ -5,7 +5,7 @@ personas:
   - Developer
   - Product Owner
 author: Patrick Simonian
-labels: 
+tags: 
   - CSS
   - Media Query
   - Responsive Design
