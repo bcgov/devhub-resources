@@ -5,22 +5,25 @@ description: Learn more about Rocket.Chat, a instant chat app, and how you can u
 
 # Leveraging Rocket.Chat
 
-Rocket.Chat is a open source chat application. Our instance of Rocket.Chat can be found at [https://chat.pathfinder.gov.bc.ca](https://chat.pathfinder.gov.bc.ca).
+Rocket.Chat a community building and team messaging tool. The [Pathfinder rocket.chat](https://chat.pathfinder.gov.bc.ca) is used by people in the BC Public Service who are building digital products and learning how to work a as a community to build the best practices of digital government in BC.
 
-## Who Can Use It?
 
-All Government Employees as well as user who are apart of the [bcgov github github organization](https://github.com/bcgov) have instant access. 
+## How to join?
 
-<!-- ## What If I'm not a Government Employee or Apart of Github? -->
-<!-- I'm not sure if we want to advertise reggie ? -->
+All Government Employees (with an IDIR account) as well as GitHub users who are apart of the [bcgov GitHub Organization](https://github.com/bcgov) have instant access.
+
+If you do not have access, please refer to the instructions here for details: https://developer.gov.bc.ca/Community-and-Events/Steps-to-join-Pathfinder-Rocket.Chat
+
 
 ## It's Community
 
-Since its inception, Rocket.Chat has been growing its user base. Since March 22nd our userbase is now over 850! 
+Since its inception, Rocket.Chat has been growing its user base. Since January 2020 our userbase is now over 1200! 
 
 Most chat channels are public and allow you to discover/learn about new tech, upcoming events, solutions to common problems and even more. 
 
-For teams that work in Openshift, it is also their primary tool to provision things like Teams in Github, projects in Openshift, and SSO Realms.
+For teams that work in OpenShift, it is also their primary tool to provision things like Teams in Github, projects in OpenShift, and SSO Realms.
+
+See [here](https://developer.gov.bc.ca/Community-and-Events/Chat-Channel-Conventions) for more information on the community usage.
 
 
 ## It's A Place To Ask Questions
