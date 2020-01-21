@@ -1,6 +1,11 @@
 ---
 resourceType: Documentation
 description: Learn more about Rocket.Chat, a instant chat app, and how you can use it in your day to day work
+tags:
+- rocket chat
+- rocketchat
+- im
+- slack
 ---
 
 # Leveraging Rocket.Chat
