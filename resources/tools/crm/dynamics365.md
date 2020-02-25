@@ -1,6 +1,5 @@
 ---
 title: Dynamics 365
-description: A business application platform from Microsoft that includes modules for CRM, sales, ERP, HR and more.
 resourceType: Self-Service Tools
 personas: 
 	- Developer    
@@ -9,8 +8,9 @@ tags:
 	- CRM
 	- Microsoft
 	- Cloud
+description: A business application platform from Microsoft that includes modules for CRM, sales, ERP, HR and more.
 ---
-## Dynamics 365
+# Dynamics 365
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Dynamics_365):
 
