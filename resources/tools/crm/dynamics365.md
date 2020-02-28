@@ -2,12 +2,12 @@
 title: Dynamics 365
 resourceType: Self-Service Tools
 personas: 
-	- Developer    
-    - Product Owner
+- Developer    
+- Product Owner
 tags:
-	- CRM
-	- Microsoft
-	- Cloud
+- CRM
+- Microsoft
+- Cloud
 description: A business application platform from Microsoft that includes modules for CRM, sales, ERP, HR and more.
 ---
 # Dynamics 365
