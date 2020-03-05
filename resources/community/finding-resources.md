@@ -12,7 +12,7 @@ personas:
 
 ## Where To Find Helpful Resources As A Developer
 
-Some of the main principles Developer's go by are "don't repeat yourself" and "don't reinvent the wheel". 
+Some of the main principles developers go by are "don't repeat yourself" and "don't reinvent the wheel". 
 
 With that being said, it can be difficult to look for solid code examples, good project skeletons and so on. 
 
@@ -59,7 +59,7 @@ already contain many of the best practices when it comes to administering an app
 
 Here are a couple of good ways to find repos. 
 
-1. Using the Devhub
+1. Using the DevHub
 
 > Requires being logged in
 
