@@ -5,7 +5,6 @@ tags:
 - rocket chat
 - rocketchat
 - im
-- slack
 ---
 
 # Leveraging Rocket.Chat
@@ -22,20 +21,25 @@ If you do not have access, please refer to the instructions here for details: ht
 
 ## It's Community
 
-Since its inception, Rocket.Chat has been growing its user base. Since January 2020 our userbase is now over 1200! 
-
 Most chat channels are public and allow you to discover/learn about new tech, upcoming events, solutions to common problems and even more. 
+To learn more about the common channels, check out our [Chat Channel Conventions](https://developer.gov.bc.ca/topic/featured/Chat-Channel-Conventions) or go explore the options on RocketChat!
 
-For teams that work in OpenShift, it is also their primary tool to provision things like Teams in Github, projects in OpenShift, and SSO Realms.
-
-See [here](https://developer.gov.bc.ca/Community-and-Events/Chat-Channel-Conventions) for more information on the community usage.
+* Don’t know what to do? Say it out loud to our community and chances are that someone who does know will offer help.
+* Holding onto a great idea, or have a brilliant answer? Contribute it and watch the community come together to evolve it.  
 
 
 ## It's A Place To Ask Questions
 
-Over 850 users means there is a plethora of knowledge that is open for sharing. Solutions to common tech woes, 
-introductions to new tech, provoking reads in a shared article, discovery of events such as Openshift 101 and Exchange Lab Tours and more. 
-You don't need to be a Rocket.Chat veteran to contribute either :)
+A good question is more likely to get an answer - and it’s likely to get a better answer more quickly, too! To that end, you'll want to include plenty of detail:
+
+1. **What are you trying to do?** Provide full details about exactly what you're hoping to achieve. What end result are you looking for?
+2. **How are you trying to do it?** Provide full details about what you've already done to solve your problem and what tools you're using. If you're having problems logging into RocketChat, are you using IDIR or Github? Website or App? On Windows or Mac? Include all the details you can think of!
+3. **What kind of help do you want?** What is it that you're hoping the community can provide for you?
+4. **Why are you trying to do it?** Why is this important in the first place? Maybe there's another simpler way that can serve your purpose—it’s important for the community to know that, too!
+
+And make sure you're asking on the right channel! Check out [Chat Channel Conventions](https://developer.gov.bc.ca/topic/featured/Chat-Channel-Conventions) to find out more!
+
+
 
 > Case Study: The Devhub UX Survey
 The Devhub (https://developer.gov.bc.ca) Team created a survey to learn more about how users are interacting with the app.
