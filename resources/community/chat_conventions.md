@@ -81,3 +81,13 @@ If someone (or a group of someones!) deserve your public thanks, this is the pla
 
 Jokes (SFW only pls), links, and ~~cat~~ pug pictures. 'Nuff said.
 
+## Naming New Channels
+
+Teams are always welcome to make new channels for their own use! When doing so,  consider the following conventions for creating and naming your channel:
+
+1. Is this additional channel necessary? Discussions are a great way to provide a dedicated space for taking about specific topics, especially if the topic will only be relevant for a finite amount of time!
+2. Is this channel team-specific? If you're interested in making a channel for the use of the wider community, please give our LabOps and/or Platform Services teams a shout about it. This is so we can properly support this community-wide service!
+3. Is your new channel's name clear? Team-specific channels should include the team's name (or shortname). A new user should be able to tell at-a-glance what this channel is about, even if they're not a member of your team. Consider using a format like this one: `team-topic`
+
+As always, our community is more than welcome to fork this doc and include some recommendations of their own. We'd be particularly interested in hearing about how your team has chosen to organize their channels, so new teams can learn what has worked in the past!
+
