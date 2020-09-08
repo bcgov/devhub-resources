@@ -11,7 +11,7 @@ description: Learn how to more easily interact with two or more OpenShift Cluste
 ## Working in Multiple Clusters
 
 When performing a migration from one cluster to another it is important that you can rapidly change between clusters without having to 
-manually login. This can be done by leveraging `contexts`. Contexts allow you to change between clusters (when logged in) on the fly using the command `oc use-context <context name>`
+manually login. This can be done by leveraging `contexts`. Contexts allow you to change between clusters (when logged in) on the fly using the command `oc config use-context <context name>`
 
 1. Login to the clusters you wish to work with (ie something like Azure Redhat OpenShift and Pathfinder 3.11)
 
@@ -48,4 +48,3 @@ You will find a set of contexts (namespaces you have logged into). From here loc
 
 4. You can now switch contexts by using a command like `oc config use-context aro-default`
 > pro tip, store the command `oc config use-context` in your profile settings (`.bashrc` `.zshrc` etc) as an `alias` to speed up your workflow
-
