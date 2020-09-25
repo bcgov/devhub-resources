@@ -1,6 +1,6 @@
 ## Migrating Rhel Images
 
-Depending on your Openshift 4.x cluster you may not the necessary licences and or subscriptions to pull certain repositories that are needed for your
+Depending on your Openshift 4.x cluster you may not have the necessary licences and or subscriptions to pull certain repositories that are needed for your
 Rhel based builds. One thing you can do is try to migrate your Rhel based images to __Universal Base Images__ or __UBI__ for short. 
 
 
@@ -88,7 +88,6 @@ RUN set -x && yum -h && \
     yum clean all && \
     rpm -qa
  ```
-
 
 
 
