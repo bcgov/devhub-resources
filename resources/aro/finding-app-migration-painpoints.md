@@ -22,3 +22,9 @@ oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespa
 
 oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespace-name>-prod:default  --namespace=<namespace-name>-tools
 ```
+
+## DeploymentConfig Issues
+
+1. __Implicit docker image registry is not the internal docker registry service.__  When pointing to namespaced images, Openshift will attempt to pull it directly from `docker.io` instead of the internal registry. You will need to specify the internal registry when referenced images outside of your namespace.
+
+2. __ImagePullPolicy is IfNotPresent by default__. The `ImagePullPolicy` is set to `Always` in __3.11__. This is not the case in ARO. This means that when you push new images and redeploy a DeploymentConfig. It will not use the latest version of that imagestreamtag. You can switch the ImagePullPolicy to `Always` to rectify this
