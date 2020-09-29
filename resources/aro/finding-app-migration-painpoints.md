@@ -1,3 +1,11 @@
+---
+description: Common pain points when migrating apps to the cloud.
+tags:
+- aro
+- azure redhat openshift
+- cloud migration
+- public cloud
+---
 
 ## Setting up your namespace
 

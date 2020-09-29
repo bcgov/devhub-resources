@@ -1,3 +1,11 @@
+---
+description: Double check your build and deployment infrastructure for the images you are leveraging to prevent some pain when deploying to the cloud.
+tags:
+- aro
+- azure redhat openshift
+- cloud migration
+- public cloud
+---
 ## Check #1: Exploring the images you leverage and its availability
 
 Double check your build and deployment infrastructure for the images you are leveraging. 

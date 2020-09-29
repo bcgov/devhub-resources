@@ -1,3 +1,11 @@
+---
+description: Learn what it takes to migrate off of your Rhel based images.
+tags:
+- aro
+- azure redhat openshift
+- cloud migration
+- public cloud
+---
 ## Migrating Rhel Images
 
 Depending on your Openshift 4.x cluster you may not have the necessary licences and or subscriptions to pull certain repositories that are needed for your
