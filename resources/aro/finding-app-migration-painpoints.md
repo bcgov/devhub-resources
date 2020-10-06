@@ -39,4 +39,4 @@ oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespa
 
 ## Memory Issues
 
-1. Memory Utilization appears to behave differently in ARO. This seems to create a pattern where your pods require more memory than they would have in 3.11. Keep that in mind and watch out for your pods quitting unexpectedly. These could be any pods. Your app pods, build pods, deploy pods etc. Sometimes you will see a __OOM__ status but sometimes the stdout from pod logs just quit with a non zero status code
+1. __Memory Utilization__ appears to behave differently in ARO. This seems to create a pattern where your pods require more memory than they would have in 3.11. Keep that in mind and watch out for your pods quitting unexpectedly. These could be any pods. Your app pods, build pods, deploy pods etc. Sometimes you will see a __OOM__ status but sometimes the stdout from pod logs just quit with a non zero status code
