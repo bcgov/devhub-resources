@@ -36,3 +36,7 @@ oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespa
 1. __Implicit docker image registry is not the internal docker registry service.__  When pointing to namespaced images, Openshift will attempt to pull it directly from `docker.io` instead of the internal registry. You will need to specify the internal registry when referenced images outside of your namespace.
 
 2. __ImagePullPolicy is IfNotPresent by default__. The `ImagePullPolicy` is set to `Always` in __3.11__. This is not the case in ARO. This means that when you push new images and redeploy a DeploymentConfig. It will not use the latest version of that imagestreamtag. You can switch the ImagePullPolicy to `Always` to rectify this
+
+## Memory Issues
+
+1. Memory Utilization appears to behave differently in ARO. This seems to create a pattern where your pods require more memory than they would have in 3.11. Keep that in mind and watch out for your pods quitting unexpectedly. These could be any pods. Your app pods, build pods, deploy pods etc. Sometimes you will see a __OOM__ status but sometimes the stdout from pod logs just quit with a non zero status code
