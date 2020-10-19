@@ -26,11 +26,11 @@ Once you have these namespaces provisioned you will want to doublecheck that you
 [Updating Image Pull Access](https://docs.openshift.com/container-platform/4.4/openshift_images/managing_images/using-image-pull-secrets.html#images-allow-pods-to-reference-images-across-projects_using-image-pull-secrets)
 ```sh
 # grant image pull access between your development namespaces and tools
-oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespacename>-dev:default --namespace=<namespace-name>-tools
+oc policy add-role-to-user system:image-puller system:serviceaccount:<namespacename>-dev:default --namespace=<namespace-name>-tools
 
-oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespace-name>-test:default  --namespace=<namespace-name>-tools
+oc policy add-role-to-user system:image-puller system:serviceaccount:<namespace-name>-test:default  --namespace=<namespace-name>-tools
 
-oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespace-name>-prod:default  --namespace=<namespace-name>-tools
+oc policy add-role-to-user system:image-puller system:serviceaccount:<namespace-name>-prod:default  --namespace=<namespace-name>-tools
 ```
 
 ## DeploymentConfig Issues
