@@ -42,5 +42,3 @@ oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespa
 ## Pod Debugging Issues
 
 1. It appears in ARO specifically Pods logs can sometimes be truncated. This means that if you are attempting to debug a long stream of logs, the __head__ logs are not available. A __workaround__ for this is to make sure to view the logs as soon as the pod is available. 
-
-## Memory Issues
