@@ -48,3 +48,29 @@ You will find a set of contexts (namespaces you have logged into). From here loc
 
 4. You can now switch contexts by using a command like `oc config use-context aro-default`
 > pro tip, store the command `oc config use-context` in your profile settings (`.bashrc` `.zshrc` etc) as an `alias` to speed up your workflow
+
+
+## When Clusters are of different versions
+
+For the most part, `oc 3.11` and `oc 4.x` binaries do behave similarily for many actions. There are some actions that may cause you trouble if you attempt to use a binary that doesn't match your cluster version. 
+
+Something that may help you organize your binaries is to store them into a directory and reference them as aliases in your profile config (`.zshrc`, `.bash_profile` etc)
+
+For example you could organize your oc binaries like:
+
+```sh
+.
+├── oc3
+│   └── oc
+└── oc4
+    └── oc
+```
+
+and reference them in a `profile`:
+
+```sh
+# .zshrc
+alias oc3="~/Tools/oc3/oc"
+alias oc4="~/Tools/oc4/oc"
+```
+> you can set your default oc on the `PATH` to the one you use most. 

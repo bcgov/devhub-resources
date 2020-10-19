@@ -9,7 +9,7 @@ tags:
 ## Check #1: Exploring the images you leverage and its availability
 
 Double check your build and deployment infrastructure for the images you are leveraging. 
-There is a __high likelihood__ that some of the images you are referencing will not exist inside your new namespace, the default `openshift` namespace etc. 
+There is a __high likelihood__ that some of the images you are referencing will not exist inside your new namespace or the default `openshift` namespace etc. 
 
 > This is also a good opportunity to discover out-of-date images and upgrade them wherever possible
 
