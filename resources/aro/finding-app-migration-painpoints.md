@@ -44,5 +44,3 @@ oc oc policy add-role-to-user system:image-puller system:serviceaccount:<namespa
 1. It appears in ARO specifically Pods logs can sometimes be truncated. This means that if you are attempting to debug a long stream of logs, the __head__ logs are not available. A __workaround__ for this is to make sure to view the logs as soon as the pod is available. 
 
 ## Memory Issues
-
-1. __Memory Utilization__ appears to behave differently in ARO. This seems to create a pattern where your pods require more memory than they would have in 3.11. Keep that in mind and watch out for your pods quitting unexpectedly. These could be any pods. Your app pods, build pods, deploy pods etc. Sometimes you will see a __OOM__ status but sometimes the stdout from pod logs just quit with a non zero status code
