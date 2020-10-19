@@ -1,3 +1,13 @@
+---
+description: Step 1 in your cloud migration should be migrating your pipeline. Find out how :) 
+tags:
+- azure
+- azure redhat openshift
+- cloud migration
+- public cloud
+- ci/cd
+- cicd
+---
 ## Migrating Your BC Gov Jenkins to the Cloud
 
 There is a __UBI8__ based Jenkins image now available to build in your namespaces. You can leverage this image on its own (including the deployment config associated with it), or you can reference it from any existing pipeline that was using the `bcgov/jenkins-basic:<tag>` image. For users of the __RHEL__ based Jenkins this will be the easiest point of transition from the Pathfinder `3.11` cluster and your next cluster. 
