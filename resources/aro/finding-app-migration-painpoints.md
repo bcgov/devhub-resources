@@ -1,5 +1,6 @@
 ---
 description: Common painpoints when migrating apps to the cloud.
+title: App Migration Painpoints
 tags:
 - aro
 - azure redhat openshift
