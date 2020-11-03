@@ -24,7 +24,7 @@ This all being said, Jenkins is becoming an older and older CI/CD tool. While it
 ```yaml
 # From
 volumeMounts:
-  - mountPath: /var/jenkins-data
+  - mountPath: /var/lib/jenkins/jobs
     name: jenkins-jobs
     readOnly: false
   - mountPath: /var/run/pod
@@ -39,7 +39,7 @@ volumeMounts:
 # To
 
 volumeMounts:
-  - mountPath: /var/lib/jenkins/jobs
+  - mountPath: /var/jenkins-data
     name: jenkins-jobs
     readOnly: false
   - mountPath: /var/run/pod
