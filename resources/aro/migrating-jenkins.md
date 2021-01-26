@@ -18,7 +18,7 @@ This all being said, Jenkins is becoming an older and older CI/CD tool. While it
 
 ## Things to take into account before building and deploying
 
-1. Jenkins v2.235.5 now looks for builds/jobs in `/var/jenkins-data` instead of `/var/lib/jenkins/..
+1. Jenkins v2.235.5 now looks for builds/jobs in `/var/jenkins-data` instead of `/var/lib/jenkins/..`
    You will __need to modify__ any existing Jenkins DeploymentConfigs. Adjust your `volumeMounts` to match that path. 
 
 ```yaml
