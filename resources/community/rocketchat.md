@@ -9,7 +9,7 @@ tags:
 
 # Leveraging Rocket.Chat
 
-Rocket.Chat a community building and team messaging tool. The [BCGOV rocket.chat](https://chat.developer.gov.bc.ca) is used by people in the BC Public Service who are building digital products and learning how to work a as a community to build the best practices of digital government in BC.
+Rocket.Chat is a community building and team messaging tool. The [BCGOV rocket.chat](https://chat.developer.gov.bc.ca) is used by people in the BC Public Service who are building digital products and learning how to work a as a community to build the best practices of digital government in BC.
 
 ## It's Community
 
