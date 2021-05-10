@@ -14,6 +14,6 @@ tags:
 
 Documize is an opensource content authoring & automation system that allows teams to collaborate on internal and external documentation. Content can be annotated with 'tags', and organized in meaningful ways to assist with team workflows. 
 
-The platform services Documize site can be found [https://docs.pathfinder.gov.bc.ca/](https://docs.pathfinder.gov.bc.ca/)
+The platform services Documize site can be found [https://docs.developer.gov.bc.ca/](https://docs.developer.gov.bc.ca/)
   
 
