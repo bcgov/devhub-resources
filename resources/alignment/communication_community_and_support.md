@@ -8,7 +8,7 @@ description: Overview of Communication, Community and Support mechanism mechanis
 - Product Teams should aim for self-sufficiency WRT management of pipelines, definition of OCP assets, deployments, scaling, monitoring, etc.
     - Training, tutorials, books, are available to help with the learning curve
 - Community (Internet, and Gov) are the support mechanisms - not individual resources
-- Primary communication mechanism is a Rocket.Chat instance running at https://chat.pathfinder.gov.bc.ca
+- Primary communication mechanism is a Rocket.Chat instance running at https://chat.developer.gov.bc.ca
     - Teams should  monitor (for alerts/notifications, etc.) and participate (answer questions, share findings, etc.)
     - Follow community conventions/etiquette WRT use of specific channels, appropriate @ mentions, DMs, etc.
 - Technical team members should join and participate in DevOps Commons community - meetups, etc.
