@@ -1,6 +1,13 @@
 --- 
 title: Communication, Community and Support
 description: Overview of Communication, Community and Support mechanism mechanism and conventions within the BC Gov developer community.
+tags:
+  - openshift
+  - community
+  - communications
+  - platform
+  - support
+  - private cloud
 ---
 
 # Communication, Community and Support
@@ -8,7 +15,7 @@ description: Overview of Communication, Community and Support mechanism mechanis
 ## Community and Support
 - Product Teams should aim for self-sufficiency WRT management of pipelines, definition of OCP assets, deployments, scaling, monitoring, etc.
     - Training, tutorials, books are available to help with the learning curve (search in [DevHub](http://developer.gov.bc.ca) and in Internet)
-    - [Openshift training](https://www.eventbrite.ca/e/openshift-101-tickets-85533754763)
+    - [Openshift training](https://developer.gov.bc.ca/ExchangeLab-Course:-Openshift-101)
     - [Openshift 4 Migration](hhttps://github.com/BCDevOps/OpenShift4-Migration/issues)
     - Read more about our [Community-Based Support Model on Openshift 4 Platform](https://developer.gov.bc.ca/topic/featured/BC-Government-Private-Cloud-as-a-ServiceOpenshift-4-Platform-Service-Overview#community-devops-support)
 - Technical team members should join and participate in DevOps Commons community - meetups, etc.
