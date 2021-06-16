@@ -35,5 +35,5 @@ For government employees there is no cost for this course. For vendors, please i
 
 ## When is the next course?
 
-Course availability changes overtime. We recommend taking a look at [Eventbrite](https://www.eventbrite.ca/e/openshift-101-tickets-65454960549) or
+Course availability changes overtime. We recommend taking a look at [Eventbrite](https://www.eventbrite.ca/e/openshift-101-tickets-85533754763) or
 the [Devhub](https://developer.gov.bc.ca/events) for upcoming dates.
