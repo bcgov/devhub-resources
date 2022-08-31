@@ -1,6 +1,6 @@
 ---
 title: Application Security Self-Assessment
-description: A quick reference of application security-related factors that development teams should consider as the design, build and deploy applications.
+description: A quick reference of application security-related factors that development teams should consider as they design, build and deploy applications.
 ---
 
 # Application Security Self-Assessment
