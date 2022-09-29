@@ -39,8 +39,5 @@ For government employees there is no cost for this course. For vendors, please i
 
 ## When is the next course?
 
-Course availability changes overtime. Please sign up separately for:
-* [Openshift 101 Workshop](https://www.eventbrite.ca/e/openshift-101-workshop-tickets-311464688267) 
-* [Openshift 101 Lab](https://www.eventbrite.ca/e/openshift-lab-101-tickets-311481077287)
-
-or alternatively, check the [Devhub](https://developer.gov.bc.ca/events) for upcoming dates.
+Course availability changes over time. Please sign up at Eventbrite:
+* [OpenShift 101 Workshop & Lab](https://openshift101.eventbrite.ca/)
