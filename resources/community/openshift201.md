@@ -3,22 +3,22 @@ resourceType: Events
 personas: 
 - Developer
 tags:
-- Openshift
-- Learning Openshift
+- OpenShift
+- Learning OpenShift
 - Developer Guide
-description: Taking Openshift 201 will provide you with more practical and hands on training that you can leverage in your day to day work
+description: Taking OpenShift 201 will provide you with more practical and hands on training that you can leverage in your day to day work
 ---
 
-# ExchangeLab Course: Openshift 201
+# ExchangeLab Course: OpenShift 201
 
-Openshift 201 is a two-day course put on by the Exchange Lab (formerly CSI Lab). This course is recommended to anyone who is onboarding onto the Lab's Openshift Cluster. 
+OpenShift 201 is a two-day course put on by the Platform Services team. This course is recommended to anyone who is onboarding onto the OpenShift platform. 
 
 ## What is it about? 
 
 OpenShift 201 outlines more practical tasks that a development team would undergo when working on their project.
 You can expect to learn:
 - Templates and codifying deployment artifacts
-- Jenkins and many things CI/CD
+- CI/CD
 - Databases and associated operational recommendations
 - Application availability and scalable design patterns
 - Granular resource and operational controls
